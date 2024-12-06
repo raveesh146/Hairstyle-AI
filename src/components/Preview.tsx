@@ -12,7 +12,7 @@ export function Preview() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [isModelLoading, setIsModelLoading] = useState(true);
 
-  // Load face detection model when component mounts
+
   useEffect(() => {
     let mounted = true;
 
